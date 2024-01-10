@@ -1,0 +1,34 @@
+/* width */
+.task-scroll::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+.task-scroll::-webkit-scrollbar-track {
+  background: #c3c2c280;
+  border: 2px solid rgba(128, 128, 128, 0.175);
+  border-radius: 5px;
+}
+
+/* Handle */
+.task-scroll::-webkit-scrollbar-thumb {
+  background: #006ab2;
+  border-radius: 5px;
+}
+
+.horizontal-scroll::-webkit-scrollbar {
+  height: 10px;
+}
+
+/* Track */
+.horizontal-scroll::-webkit-scrollbar-track {
+  background: #c3c2c280;
+  border: 2px solid rgba(128, 128, 128, 0.175);
+  border-radius: 5px;
+}
+
+/* Handle */
+.horizontal-scroll::-webkit-scrollbar-thumb {
+  background: #006ab2;
+  border-radius: 10px;
+}
