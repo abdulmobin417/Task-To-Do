@@ -24,7 +24,7 @@ const SingleTask = ({ taskId, taskType }) => {
     if (!fileName.current.files[0]) {
       return;
     }
-    console.log(fileName.current.files[0]);
+    // console.log(fileName.current.files[0]);
 
     // data send post method
     const data = {
@@ -36,7 +36,7 @@ const SingleTask = ({ taskId, taskType }) => {
     await axiosPublic.post("/files", data).then((res) => {
       if (res.data.insertedId) {
         // toast.success("File added successful!!!");
-        console.log("inserted");
+        // console.log("inserted");
         refetch();
       }
     });

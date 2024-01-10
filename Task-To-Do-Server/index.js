@@ -29,7 +29,7 @@ async function run() {
 
     app.get("/files", async (req, res) => {
       const result = await fileCollection.find().toArray();
-      console.log(result);
+      // console.log(result);
       res.send(result);
     });
 
