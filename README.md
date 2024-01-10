@@ -1,4 +1,4 @@
-# React + Vite
+# React + Tailwind + Vite
 
 # Task To Do
 
