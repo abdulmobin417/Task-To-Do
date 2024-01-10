@@ -11,6 +11,7 @@ import PropTypes from "prop-types";
 import { useRef } from "react";
 import useAxiosPublic from "../hooks/useAxiosPublic";
 import useFiles from "../hooks/useFiles";
+import "../pages/Home/Scrollbar.css";
 
 const SingleTask = ({ taskId, taskType }) => {
   const fileName = useRef("");
@@ -123,7 +124,7 @@ const SingleTask = ({ taskId, taskType }) => {
                 </form>
                 <div className="Task List">
                   <h3 className="font-bold mt-3">File Lists</h3>
-                  <div className="overflow-x-auto">
+                  <div className="overflow-y-auto max-h-[210px] task-scroll">
                     <table className="table">
                       <thead>
                         <tr>
