@@ -16,7 +16,7 @@ const Doing = () => {
           <h2 className="text-gray-600 text-lg font-semibold">0</h2>
         </div>
       </div>
-      <div className="mt-3 max-h-[800px] overflow-y-scroll task-scroll">
+      <div className="mt-3 max-h-[720px] 2xl:max-h-[800px] overflow-y-scroll task-scroll">
         {totalTask?.map((id) => (
           <SingleTask key={id} taskId={id} taskType={"Doing"} />
         ))}
